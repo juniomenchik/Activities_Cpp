@@ -4,7 +4,6 @@
 
 int main(int argc, char** argv) {
 	
-	printf("Primeiro Repositorio ");
 	printf("Dale");
 	
 	return 0;
