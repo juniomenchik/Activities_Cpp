@@ -7,10 +7,7 @@ typedef struct tp_no {
 	   struct tp_no *prox;
 } tplista; 
 
-
 tplista *lista = NULL;
-
-
 
 /**
 * Verifica se lista estah vazia
