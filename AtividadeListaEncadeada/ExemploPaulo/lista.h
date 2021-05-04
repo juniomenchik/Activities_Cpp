@@ -5,14 +5,11 @@ typedef struct tp_no {
 	   int info;
 	   struct tp_no *prox;
 } tplista; 
-
-
 int vazia (tplista *t) ;
 /**
 * Aloca novo nodo e retorna ponteiro para ele 
 **/
 tplista* aloca( ) ;
-
 /**
 * Mostra os elementos da lista
 **/
