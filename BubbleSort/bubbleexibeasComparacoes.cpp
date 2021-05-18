@@ -1,0 +1,56 @@
+// C program for implementation of Bubble sort
+#include <stdio.h>
+ 
+void swap(int *xp, int *yp)
+{
+    int temp = *xp;
+    *xp = *yp;
+    *yp = temp;
+}
+ 
+ 
+/* Function to print an array */
+void printArray(int arr[], int size)
+{
+    int i;
+    for (i=0; i < size; i++)
+        printf("%d ", arr[i]);
+    printf("\n");
+}
+void printReverseArray(int arr[], int size)
+{
+    int i;
+    for (i=size; i >= 0; i--)
+        printf("%d ", arr[i]);
+    printf("\n");
+}
+ 
+// Driver program to test above functions
+int main()
+{
+    int arr[14];
+    int n = 14;
+    printf("Digite 15 numeros...");
+    for(int y=0;y<15;y++){
+    	scanf("%d",&arr[y]);
+	}
+
+//    int n = sizeof(arr)/sizeof(arr[0]);
+
+       int i, j;
+       int contador = 0;
+   for (i = 0; i < n-1; i++) {
+   	       // Last i elements are already in place  
+       for (j = 0; j < n-i-1; j++)
+           if (arr[j] > arr[j+1])
+              swap(&arr[j], &arr[j+1]);
+              contador++;
+   }    
+    
+    
+    printf("Sorted array: \n");
+    printReverseArray(arr, n);
+    
+    printf("Contador : %d",contador);
+    return 0;
+}
