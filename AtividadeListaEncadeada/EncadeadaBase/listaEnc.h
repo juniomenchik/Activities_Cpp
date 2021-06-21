@@ -1,49 +1,30 @@
 #ifndef H_ 
 #define H_ 
 
-/* Estrutura da lista*/
+
 typedef struct tp_no {
 	   int info;
 	   struct tp_no *prox;
 } tplista; 
-
-tplista *lista = NULL;
-
-/**
-* Verifica se lista estah vazia
-**/
 int vazia (tplista *t) {  
 		return (t==NULL);
 }
-/**
-* Aloca novo nodo e retorna ponteiro para ele 
-**/
 tplista* aloca( ) {
 	tplista* pt;
 	pt=(tplista*) malloc(sizeof(tplista));
 	return pt;
 }
-/**
-* Procura um elemento na lista. Retorna ponteiro para sua posicao
-**/
 tplista* busca (tplista *t , int valor) {
 	tplista *p=t;
 		while ((p!=NULL) && (p->info!=valor))
 		   p=p->prox;
 	return p;
 }
-/**
-* Mostra os elementos da lista
-**/
 void mostra(tplista *t) {  
 	tplista *p;
 	for (p=t; p!=NULL; p=p->prox)
 		printf("Info: %d\n", p->info);
 }
-/**
-* Mostra o numero de nos da lista
-**/
-
 int comprimento(tplista *t) {  
 	tplista *p;
 	int numNos=0;
@@ -52,11 +33,6 @@ int comprimento(tplista *t) {
 	}
 	return numNos;
 }
-
-/**
-* Mostra o numero de nos a partir de um numero
-**/
-
 int comprimentoEspecifico(tplista *t, int n) {  
 
 	tplista* newPoint=busca(t,n);
@@ -65,7 +41,6 @@ int comprimentoEspecifico(tplista *t, int n) {
 	
 	return Altura;
 }
-
 tplista *inverter (tplista *ponteiro){
     tplista *anterior, *atual, *prox;
     anterior = NULL;
@@ -79,12 +54,6 @@ tplista *inverter (tplista *ponteiro){
     }
     return anterior;
 }
-
-
-
-/**
-* Insere um elemento na lista  (valor por referencia)
-**/
 int insere(tplista **t , int e) {
     tplista *novo;
 	
@@ -105,9 +74,6 @@ int insere(tplista **t , int e) {
 		ant->prox=novo; 
 	return 1;
 }
-/**
-* Retira um elemento da lista  (valor por referencia)
-**/
 int retira(tplista **t, int e) {
 	tplista *ant=NULL, *p=*t;
 	while (p!=NULL && p->info != e)
@@ -126,9 +92,6 @@ int retira(tplista **t, int e) {
 		return 1;
 	}
 }
-/**
-* Destroi a lista criada previamente
-**/
 void destroi(tplista *t) {
 	tplista *p=t, *q;
 	while (p!=NULL) {
