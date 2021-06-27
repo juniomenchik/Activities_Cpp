@@ -3,7 +3,7 @@
 #include "bubble.h"
 #define bubble
 
-void BubbleSort(int *numeros,int TAM100,int *COMPARACAOGLOBAL,int *MOVIMENTACAOGLOBAL){
+void BubbleSort(int *numeros,int TAM100,unsigned long int *COMPARACAOGLOBAL,unsigned long int *MOVIMENTACAOGLOBAL){
 	int j, AUXILIAR;
 	int i;
 		for(i = 0; i < TAM100; i++)

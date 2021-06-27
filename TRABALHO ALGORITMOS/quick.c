@@ -3,10 +3,10 @@
 #include "quick.h"
 #define quick
 
-int COMPARACAOGLOBAL;
-int MOVIMENTACAOGLOBAL;
+unsigned long int COMPARACAOGLOBAL;
+unsigned long int MOVIMENTACAOGLOBAL;
 
-void Quick(int vetor[10], int inicio, int fim){
+void Quick(int vetor[],int inicio, int fim){
    
    int pivo, aux, i, j, meio;
    
@@ -43,7 +43,7 @@ void Quick(int vetor[10], int inicio, int fim){
 
 
 
-void QuickSort(int *numeros,int TAM100,int *COMPARACAOGLOBAL,int *MOVIMENTACAOGLOBAL){
+void QuickSort(int *numeros,int TAM100,unsigned long int *COMPARACAOGLOBAL,unsigned long int *MOVIMENTACAOGLOBAL){
 
 	Quick(numeros,0,TAM100-1);
 

@@ -3,10 +3,10 @@
 #include "select.h"
 #define select
 
-int COMPARACAOGLOBAL;
-int MOVIMENTACAOGLOBAL;
+unsigned long int COMPARACAOGLOBAL;
+unsigned long int MOVIMENTACAOGLOBAL;
 int TAM100;
-void SelectSort(int *numeros,int TAM100,int *COMPARACAOGLOBAL,int *MOVIMENTACAOGLOBAL)
+void SelectSort(int *numeros,int TAM100,unsigned long int *COMPARACAOGLOBAL,unsigned long int *MOVIMENTACAOGLOBAL)
 {
     int vMenor;
     int vAux;
