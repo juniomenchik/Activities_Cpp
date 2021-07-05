@@ -1,0 +1,286 @@
+
+GERANDO 100 VALORES ALEATORIOS ...
+ BUUBLE SORT ALEATORIO =  0.000029  segundos, 2461 Movimentacoes e 10437 Comparacoes.
+ QUICK SORT ALEATORIO =  0.000008  segundos, 108 Movimentacoes e 442 Comparacoes.
+ SELECTION SORT ALEATORIO =  0.000018  segundos, 449 Movimentacoes e 5049 Comparacoes.
+ HEAP SORT ALEATORIO =  0.000017  segundos, 586 Movimentacoes e 1758 Comparacoes.
+ MERGE SORT ALEATORIO =  0.000013  segundos, 1904 Movimentacoes e 3301 Comparacoes.
+ INSERCTION SORT ALEATORIO =  0.000019  segundos, 4349 Movimentacoes e 5746 Comparacoes.
+
+
+GERANDO 1000 VALORES ALEATORIOS ...
+ BUUBLE SORT ALEATORIO =  0.003050  segundos, 250249 Movimentacoes e 805942 Comparacoes.
+ QUICK SORT ALEATORIO =  0.000089  segundos, 1112 Movimentacoes e 5950 Comparacoes.
+ SELECTION SORT ALEATORIO =  0.001944  segundos, 6429 Movimentacoes e 500499 Comparacoes.
+ HEAP SORT ALEATORIO =  0.000271  segundos, 9088 Movimentacoes e 27264 Comparacoes.
+ MERGE SORT ALEATORIO =  0.000170  segundos, 28772 Movimentacoes e 49215 Comparacoes.
+ INSERCTION SORT ALEATORIO =  0.001861  segundos, 278851 Movimentacoes e 299294 Comparacoes.
+
+GERANDO 10000 VALORES ALEATORIOS ...
+ BUUBLE SORT ALEATORIO =  0.393381  segundos, 25048478 Movimentacoes e 75710564 Comparacoes.
+ QUICK SORT ALEATORIO =  0.001118  segundos, 11211 Movimentacoes e 75926 Comparacoes.
+ SELECTION SORT ALEATORIO =  0.181962  segundos, 86332 Movimentacoes e 50004999 Comparacoes.
+ HEAP SORT ALEATORIO =  0.003350  segundos, 124234 Movimentacoes e 372702 Comparacoes.
+ MERGE SORT ALEATORIO =  0.002128  segundos, 388329 Movimentacoes e 659933 Comparacoes.
+ INSERCTION SORT ALEATORIO =  0.177331  segundos, 25433511 Movimentacoes e 25705115 Comparacoes.
+
+GERANDO 100000 VALORES ALEATORIOS ...
+ BUUBLE SORT ALEATORIO =  47.008884  segundos, -1802511837 Movimentacoes e 730782541 Comparacoes.
+ QUICK SORT ALEATORIO =  0.016081  segundos, 119698 Movimentacoes e 937450 Comparacoes.
+ SELECTION SORT ALEATORIO =  19.966325  segundos, 1052087 Movimentacoes e 705082703 Comparacoes.
+ HEAP SORT ALEATORIO =  0.070001  segundos, 1574896 Movimentacoes e 4724688 Comparacoes.
+ MERGE SORT ALEATORIO =  0.087638  segundos, 4879978 Movimentacoes e 8262543 Comparacoes.
+ INSERCTION SORT ALEATORIO =  29.637967  segundos, -1797697440 Movimentacoes e -1794314875 Comparacoes.
+
+
+
+INICIANDO TESTE DE VETOR ORDENADO
+GERANDO 100 VALORES ORDENADOS ...
+
+ BUUBLE SORT ORDENADO =  0.000014  segundos, 0 Movimentacoes e 4950 Comparacoes.
+ QUICK SORT ORDENADO =  0.000004  segundos, 62 Movimentacoes e 126 Comparacoes.
+ SELECTION SORT ALEATORIO =  0.000014  segundos, 0 Movimentacoes e 5049 Comparacoes.
+ HEAP SORT ALEATORIO =  0.000015  segundos, 641 Movimentacoes e 1923 Comparacoes.
+ MERGE SORT ALEATORIO =  0.000010  segundos, 1768 Movimentacoes e 3466 Comparacoes.
+ INSERCTION SORT ALEATORIO =  0.000000  segundos, 1768 Movimentacoes e 3466 Comparacoes.
+INICIANDO TESTE DE VETOR ORDENADO
+GERANDO 1000 VALORES ORDENADOS ...
+
+ BUUBLE SORT ORDENADO =  0.001964  segundos, 0 Movimentacoes e 502966 Comparacoes.
+ QUICK SORT ORDENADO =  0.000026  segundos, 510 Movimentacoes e 1022 Comparacoes.
+ SELECTION SORT ALEATORIO =  0.001846  segundos, 0 Movimentacoes e 500499 Comparacoes.
+ HEAP SORT ALEATORIO =  0.000241  segundos, 9709 Movimentacoes e 29127 Comparacoes.
+ MERGE SORT ALEATORIO =  0.000105  segundos, 25728 Movimentacoes e 51078 Comparacoes.
+ INSERCTION SORT ALEATORIO =  0.000003  segundos, 25728 Movimentacoes e 51078 Comparacoes.
+INICIANDO TESTE DE VETOR ORDENADO
+GERANDO 10000 VALORES ORDENADOS ...
+
+ BUUBLE SORT ORDENADO =  0.170674  segundos, 0 Movimentacoes e 50046078 Comparacoes.
+ QUICK SORT ORDENADO =  0.000348  segundos, 5903 Movimentacoes e 11808 Comparacoes.
+ SELECTION SORT ALEATORIO =  0.183902  segundos, 0 Movimentacoes e 50004999 Comparacoes.
+ HEAP SORT ALEATORIO =  0.003331  segundos, 131957 Movimentacoes e 395871 Comparacoes.
+ MERGE SORT ALEATORIO =  0.001339  segundos, 344580 Movimentacoes e 683102 Comparacoes.
+ INSERCTION SORT ALEATORIO =  0.000029  segundos, 344580 Movimentacoes e 683102 Comparacoes.
+INICIANDO TESTE DE VETOR ORDENADO
+GERANDO 100000 VALORES ORDENADOS ...
+
+ BUUBLE SORT ORDENADO =  16.814049  segundos, 0 Movimentacoes e 705665806 Comparacoes.
+ QUICK SORT ORDENADO =  0.004270  segundos, 65534 Movimentacoes e 131070 Comparacoes.
+ SELECTION SORT ALEATORIO =  19.302257  segundos, 0 Movimentacoes e 705082703 Comparacoes.
+ HEAP SORT ALEATORIO =  0.043996  segundos, 1650855 Movimentacoes e 4952565 Comparacoes.
+ MERGE SORT ALEATORIO =  0.068919  segundos, 4273686 Movimentacoes e 8490420 Comparacoes.
+ INSERCTION SORT ALEATORIO =  0.000293  segundos, 4273686 Movimentacoes e 8490420 Comparacoes.
+
+
+
+INICIANDO TESTE DE VETOR 10PorcentoForaDeOrdem
+GERANDO 100 VALORES 10porCento Fora da ORDEM ...
+
+ BUUBLE SORT 10porCento Fora de Ordem =  0.000018  segundos, 501 Movimentacoes e 8495370 Comparacoes.
+ QUICK SORT 10porCento Fora de Ordem =  0.000007  segundos, 93 Movimentacoes e 368 Comparacoes.
+ SELECTION SORT 10porCento Fora de Ordem =  0.000016  segundos, 272 Movimentacoes e 5049 Comparacoes.
+ HEAP SORT 10porCento Fora de Ordem =  0.000017  segundos, 627 Movimentacoes e 1881 Comparacoes.
+ MERGE SORT 10porCento Fora de Ordem =  0.000011  segundos, 1781 Movimentacoes e 3424 Comparacoes.
+ INSERCTION SORT 10porCento Fora de Ordem =  0.000003  segundos, 2187 Movimentacoes e 3830 Comparacoes.
+INICIANDO TESTE DE VETOR 10PorcentoForaDeOrdem
+GERANDO 1000 VALORES 10porCento Fora da ORDEM ...
+
+ BUUBLE SORT 10porCento Fora de Ordem =  0.002376  segundos, 42801 Movimentacoes e 503330 Comparacoes.
+ QUICK SORT 10porCento Fora de Ordem =  0.000473  segundos, 960 Movimentacoes e 4626 Comparacoes.
+ SELECTION SORT 10porCento Fora de Ordem =  0.002658  segundos, 4438 Movimentacoes e 500499 Comparacoes.
+ HEAP SORT 10porCento Fora de Ordem =  0.000247  segundos, 9623 Movimentacoes e 28869 Comparacoes.
+ MERGE SORT 10porCento Fora de Ordem =  0.000339  segundos, 26106 Movimentacoes e 50820 Comparacoes.
+ INSERCTION SORT 10porCento Fora de Ordem =  0.000259  segundos, 68846 Movimentacoes e 93560 Comparacoes.
+INICIANDO TESTE DE VETOR 10PorcentoForaDeOrdem
+GERANDO 10000 VALORES 10porCento Fora da ORDEM ...
+
+ BUUBLE SORT 10porCento Fora de Ordem =  0.234505  segundos, 4576722 Movimentacoes e 50088560 Comparacoes.
+ QUICK SORT 10porCento Fora de Ordem =  0.000857  segundos, 10262 Movimentacoes e 58348 Comparacoes.
+ SELECTION SORT 10porCento Fora de Ordem =  0.212145  segundos, 66346 Movimentacoes e 50004999 Comparacoes.
+ HEAP SORT 10porCento Fora de Ordem =  0.003680  segundos, 129552 Movimentacoes e 388656 Comparacoes.
+ MERGE SORT 10porCento Fora de Ordem =  0.001826  segundos, 348349 Movimentacoes e 675887 Comparacoes.
+ INSERCTION SORT 10porCento Fora de Ordem =  0.041222  segundos, 4915869 Movimentacoes e 5243407 Comparacoes.
+INICIANDO TESTE DE VETOR 10PorcentoForaDeOrdem
+GERANDO 100000 VALORES 10porCento Fora da ORDEM ...
+
+ BUUBLE SORT 10porCento Fora de Ordem =  22.886571  segundos, 761297025 Movimentacoes e 710226111 Comparacoes.
+ QUICK SORT 10porCento Fora de Ordem =  0.009453  segundos, 80181 Movimentacoes e 575238 Comparacoes.
+ SELECTION SORT 10porCento Fora de Ordem =  19.281427  segundos, 1071320 Movimentacoes e 705082703 Comparacoes.
+ HEAP SORT 10porCento Fora de Ordem =  0.074356  segundos, 1617259 Movimentacoes e 4851777 Comparacoes.
+ MERGE SORT 10porCento Fora de Ordem =  0.083655  segundos, 4321463 Movimentacoes e 8389632 Comparacoes.
+ INSERCTION SORT 10porCento Fora de Ordem =  7.864152  segundos, 764857823 Movimentacoes e 768925992 Comparacoes.
+
+
+INICIANDO TESTE DE VETOR INVERSAMENTE ORDENADO
+GERANDO 100 VALORES INVERSAMENTE ORDENADO ...
+
+ BUUBLE SORT INVERSAMENTE ORDENADO =  0.000030  segundos, 4950 Movimentacoes e 4950 Comparacoes.
+ QUICK SORT INVERSAMENTE ORDENADO =  0.000003  segundos, 62 Movimentacoes e 224 Comparacoes.
+ SELECTION SORT INVERSAMENTE ORDENADO =  0.000016  segundos, 2550 Movimentacoes e 5049 Comparacoes.
+ HEAP SORT INVERSAMENTE ORDENADO =  0.000013  segundos, 517 Movimentacoes e 1551 Comparacoes.
+ MERGE SORT INVERSAMENTE ORDENADO =  0.000010  segundos, 1604 Movimentacoes e 3094 Comparacoes.
+ INSERCTION SORT INVERSAMENTE ORDENADO =  0.000030  segundos, 6455 Movimentacoes e 7945 Comparacoes.
+INICIANDO TESTE DE VETOR INVERSAMENTE ORDENADO
+GERANDO 1000 VALORES INVERSAMENTE ORDENADO ...
+
+ BUUBLE SORT INVERSAMENTE ORDENADO =  0.003016  segundos, 499500 Movimentacoes e 499500 Comparacoes.
+ QUICK SORT INVERSAMENTE ORDENADO =  0.000023  segundos, 510 Movimentacoes e 2020 Comparacoes.
+ SELECTION SORT INVERSAMENTE ORDENADO =  0.001613  segundos, 250500 Movimentacoes e 500499 Comparacoes.
+ HEAP SORT INVERSAMENTE ORDENADO =  0.000186  segundos, 8317 Movimentacoes e 24951 Comparacoes.
+ MERGE SORT INVERSAMENTE ORDENADO =  0.000091  segundos, 24224 Movimentacoes e 46902 Comparacoes.
+ INSERCTION SORT INVERSAMENTE ORDENADO =  0.003095  segundos, 522725 Movimentacoes e 545403 Comparacoes.
+INICIANDO TESTE DE VETOR INVERSAMENTE ORDENADO
+GERANDO 10000 VALORES INVERSAMENTE ORDENADO ...
+
+ BUUBLE SORT INVERSAMENTE ORDENADO =  0.348635  segundos, 49995000 Movimentacoes e 49995000 Comparacoes.
+ QUICK SORT INVERSAMENTE ORDENADO =  0.000384  segundos, 5904 Movimentacoes e 21808 Comparacoes.
+ SELECTION SORT INVERSAMENTE ORDENADO =  0.171526  segundos, 25005000 Movimentacoes e 50004999 Comparacoes.
+ HEAP SORT INVERSAMENTE ORDENADO =  0.002947  segundos, 116697 Movimentacoes e 350091 Comparacoes.
+ MERGE SORT INVERSAMENTE ORDENADO =  0.001308  segundos, 324920 Movimentacoes e 637322 Comparacoes.
+ INSERCTION SORT INVERSAMENTE ORDENADO =  0.465667  segundos, 50309921 Movimentacoes e 50622323 Comparacoes.
+INICIANDO TESTE DE VETOR INVERSAMENTE ORDENADO
+GERANDO 100000 VALORES INVERSAMENTE ORDENADO ...
+
+ BUUBLE SORT INVERSAMENTE ORDENADO =  71.232781  segundos, 704982704 Movimentacoes e 704982704 Comparacoes.
+ QUICK SORT INVERSAMENTE ORDENADO =  0.004026  segundos, 65534 Movimentacoes e 231068 Comparacoes.
+ SELECTION SORT INVERSAMENTE ORDENADO =  21.595940  segundos, -1794917296 Movimentacoes e 705082703 Comparacoes.
+ HEAP SORT INVERSAMENTE ORDENADO =  0.055047  segundos, 1497435 Movimentacoes e 4492305 Comparacoes.
+ MERGE SORT INVERSAMENTE ORDENADO =  0.106526  segundos, 4081386 Movimentacoes e 8030160 Comparacoes.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+BUBBLE SORT	ALEATORIO	ORDENADO	QUASE ORDENADO	INVERSAMENTE ORDENADO
+VETOR 100	0,000029	0,000014	0,000018	0,000030
+VETOR 1000	0,003050	0,001964	0,002376	0,003016
+VETOR 10000	0,393381	0,170674	0,234505	0,348635
+VETOR 100000	47,008884	16,814049	22,886571	71,232781
+
+QUICK SORT	ALEATORIO	ORDENADO	QUASE ORDENADO	INVERSAMENTE ORDENADO
+VETOR 100	0,000008	0,000004	0,000007	0,000003
+VETOR 1000	0,000089	0,000026	0,000473	0,000023
+VETOR 10000	0,001118	0,000348	0,000857	0,000384
+VETOR 100000	0,016081	0,004270	0,009453	0,004026
+
+SELECTION SORT	ALEATORIO	ORDENADO	QUASE ORDENADO	INVERSAMENTE ORDENADO
+VETOR 100	0,000018	0,000014	0,000016	0,000016
+VETOR 1000	0,001944	0,001846	0,002658	0,001613
+VETOR 10000	0,181962	0,183902	0,212145	0,171526
+VETOR 100000	19,966325	19,302257	19,281427	21,595940
+
+HEAP SORT	ALEATORIO	ORDENADO	QUASE ORDENADO	INVERSAMENTE ORDENADO
+VETOR 100	0,000017	0,000015	0,000017	0,000013
+VETOR 1000	0,000271	0,000241	0,000247	0,000186
+VETOR 10000	0,003350	0,003331	0,003680	0,002947
+VETOR 100000	0,070001	0,043996	0,074356	0,055047
+
+MERGE SORT	ALEATORIO	ORDENADO	QUASE ORDENADO	INVERSAMENTE ORDENADO
+VETOR 100	0,000013	0,000010	0,000011	0,000010
+VETOR 1000	0,000170	0,000105	0,000339	0,000091
+VETOR 10000	0,002128	0,001339	0,001826	0,001308
+VETOR 100000	0,087638	0,068919	0,083655	0,106526
+
+INSERCTION SORT	ALEATORIO	ORDENADO	QUASE ORDENADO	INVERSAMENTE ORDENADO
+VETOR 100	0,000019	0,000001	0,000003	0,000030
+VETOR 1000	0,001861	0,000003	0,000259	0,003095
+VETOR 10000	0,177331	0,000029	0,041222	0,465667
+VETOR 100000	29,637967	16,814049	7,864152	52,893035
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

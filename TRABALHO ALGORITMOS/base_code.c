@@ -21,28 +21,18 @@ int TAM100 = 100;
 unsigned long int COMPARACAOGLOBAL;
 unsigned long int MOVIMENTACAOGLOBAL;
 
-
 void randomize (void)
 {
     srand (time (NULL));
 }
 
-
-
-
 void geraTestesAleatorios (void)
 {
-
-
-
     randomize();
     int ax;
-
 		printf("INICIANDO CONTAGEM DOS 10 TESTES DE VETORES ALEATORIOS \n");
 		int exaux;
-		for(exaux = 4;exaux>0;exaux--){
-			
-			
+		for(exaux = 4;exaux>0;exaux--){	
       for(ax = 1; ax<=10;ax++){
       	printf(" \n  TESTE NUMERO => %d \n",ax);
           int i;
@@ -157,10 +147,6 @@ void geraTestesAleatorios (void)
 			TAM100=TAM100*10;
 		}
 				
-		
-		
-
-
 }
 
 
@@ -219,7 +205,7 @@ void geraTestesOrdenados (void)
 		 
         stopTimer(&timerSelect); 
 
-        printf(" SELECTION SORT ALEATORIO =  %f  segundos, %d Movimentacoes e %d Comparacoes. \n",getElapsedTime(&timerSelect),MOVIMENTACAOGLOBAL,COMPARACAOGLOBAL);   
+        printf(" SELECTION SORT ORDENADO =  %f  segundos, %d Movimentacoes e %d Comparacoes. \n",getElapsedTime(&timerSelect),MOVIMENTACAOGLOBAL,COMPARACAOGLOBAL);   
 		
 		
         stopWatch timerHeap;  /* declaração da variável que será passada como parâmetro */
@@ -233,7 +219,7 @@ void geraTestesOrdenados (void)
 		 
         stopTimer(&timerHeap); 
         
-        printf(" HEAP SORT ALEATORIO =  %f  segundos, %d Movimentacoes e %d Comparacoes. \n",getElapsedTime(&timerHeap),MOVIMENTACAOGLOBAL,COMPARACAOGLOBAL);   
+        printf(" HEAP SORT ORDENADO =  %f  segundos, %d Movimentacoes e %d Comparacoes. \n",getElapsedTime(&timerHeap),MOVIMENTACAOGLOBAL,COMPARACAOGLOBAL);   
 		
 		
         stopWatch timerMerge;  /* declaração da variável que será passada como parâmetro */
@@ -244,7 +230,7 @@ void geraTestesOrdenados (void)
 
         stopTimer(&timerMerge); 
         
-        printf(" MERGE SORT ALEATORIO =  %f  segundos, %d Movimentacoes e %d Comparacoes. \n",getElapsedTime(&timerMerge),MOVIMENTACAOGLOBAL,COMPARACAOGLOBAL);   
+        printf(" MERGE SORT ORDENADO =  %f  segundos, %d Movimentacoes e %d Comparacoes. \n",getElapsedTime(&timerMerge),MOVIMENTACAOGLOBAL,COMPARACAOGLOBAL);   
 		
         stopWatch timerInserction;  /* declaração da variável que será passada como parâmetro */
 	 
@@ -254,7 +240,7 @@ void geraTestesOrdenados (void)
 		 
         stopTimer(&timerInserction); 
         
-        printf(" INSERCTION SORT ALEATORIO =  %f  segundos, %d Movimentacoes e %d Comparacoes. \n",getElapsedTime(&timerInserction),MOVIMENTACAOGLOBAL,COMPARACAOGLOBAL);   
+        printf(" INSERCTION SORT ORDENADO =  %f  segundos, %d Movimentacoes e %d Comparacoes. \n",getElapsedTime(&timerInserction),MOVIMENTACAOGLOBAL,COMPARACAOGLOBAL);   
         
 		
 			TAM100=TAM100*10;
