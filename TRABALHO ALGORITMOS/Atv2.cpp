@@ -18,8 +18,6 @@
 #include<time.h>//necessário p/ função time()
 
 int TAM100 = 100;
-unsigned long int COMPARACAOGLOBAL;
-unsigned long int MOVIMENTACAOGLOBAL;
 
 void randomize (void)
 {
@@ -30,10 +28,10 @@ void geraTestesAleatorios (void)
 {
     randomize();
     int ax;
-		printf("INICIANDO CONTAGEM DO TEST DE VETORE ALEATORIO \n");
+		printf("INICIANDO CONTAGEM DO TESTE DE VETOR ALEATORIO\n");
 		int exaux;
-		for(exaux = 1;exaux>0;exaux--){	
-      for(ax = 1; ax<=1;ax++){
+		for(exaux = 1;exaux>1;exaux--){	
+      for(ax = 1; ax<=10;ax++){
       	printf(" \n  TESTE NUMERO => %d \n",ax);
           int i;
           long int vetCem[TAM100];
@@ -58,7 +56,7 @@ void geraTestesAleatorios (void)
 
         stopTimer(&timerBubble); 
         
-        printf(" BUUBLE SORT ALEATORIO =  %f  segundos\n",getElapsedTime(&timerBubble));   
+        printf(" BUUBLE SORT ALEATORIO =  %f  segundos, %d Movimentacoes e %d Comparacoes. \n",getElapsedTime(&timerBubble),MOVIMENTACAOGLOBAL,COMPARACAOGLOBAL);   
         // =====================/////======================
  				for(i=0;i<TAM100;i++){
  			numeros[i]=vetCem[i];
@@ -74,10 +72,8 @@ void geraTestesAleatorios (void)
 		 
         stopTimer(&timerQuick); 
         
-        printf(" QUICK SORT ALEATORIO =  %f  segundos \n",getElapsedTime(&timerQuick));   
-
+        printf(" QUICK SORT ALEATORIO =  %f  segundos, %d Movimentacoes e %d Comparacoes. \n",getElapsedTime(&timerQuick),MOVIMENTACAOGLOBAL,COMPARACAOGLOBAL);   
         
-        // =====================/////======================
  				for(i=0;i<TAM100;i++){
  			numeros[i]=vetCem[i];
 		 }
@@ -92,20 +88,12 @@ void geraTestesAleatorios (void)
 		 
         stopTimer(&timerHeap); 
         
-        printf(" HEAP SORT ALEATORIO =  %f  segundos \n",getElapsedTime(&timerHeap));   
+        printf(" HEAP SORT ALEATORIO =  %f  segundos, %d Movimentacoes e %d Comparacoes. \n",getElapsedTime(&timerHeap),MOVIMENTACAOGLOBAL,COMPARACAOGLOBAL);   
 
-        
-        // =====================/////======================
-        
-       
 	}
-			
-			TAM100=TAM100*10;
 		}
 				
 }
-
-
 
 int main(){	
 
